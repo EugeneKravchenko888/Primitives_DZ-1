@@ -1,7 +1,12 @@
 public class Main {
     public static void main(String[] args) {
 
-        
+        int priceTicket = 1000;
+        int money = 20;
+
+        System.out.println("Премиальные мили составляют:  ");
+        System.out.println(priceTicket / money);
+
         // Объявляете переменные для входных данных и
         // параметров программы: одну для хранения
         // стоимости билета, другую для хранения количества
